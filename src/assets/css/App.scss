@@ -1,0 +1,38 @@
+// Creating custom variables
+$gunmetal: #2A2D34;
+$celestial: #009DDC;
+$orange: #F26430;
+$violet: #6761A8;
+$green: #009B72;
+
+$gray: #495867;
+$blue: #577399;
+$light-blue: #BDD5EA;
+$ghost-white: #F7F7FF;
+$light-gray: #777;
+
+$black: #02010A;
+$lighter-gray2: #e9e9e9;
+
+$body-color: $ghost-white;
+$body-bg: $gunmetal;
+$primary: $celestial;
+
+/* The following line can be included in a src/App.scss */
+@import '~bootstrap/scss/bootstrap';
+
+body {
+	font-family: 'Exo 2', sans-serif;
+
+	&.cs-CZ {
+		header .cz {
+			display: none;
+		}
+	}
+
+	&.en {
+		header .en {
+			display: none;
+		}
+	}
+}
