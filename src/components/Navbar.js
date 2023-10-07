@@ -12,9 +12,6 @@ img {
 	width: 2rem;
 	height: auto;
 }
-&.active {
-	display: none;
-}
 `;
 
 const Navbar = () => {

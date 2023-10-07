@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Hello from '../components/Hello';
 
 const Home = () => {
 
@@ -13,9 +14,9 @@ const Home = () => {
 	}, [language]);
 
 	return (
-		<div>
-			<h1>Jan Kubiče CZ</h1>
-		</div>
+		<>
+			<Hello />
+		</>
 	);
 };
 
