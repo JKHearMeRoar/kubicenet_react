@@ -1,5 +1,3 @@
-import React from "react";
-
 /**
  * Animates a number from 0 to the target number over a specified duration.
  * @param {string} targetNumber - The ID of the HTML element that contains the target number.

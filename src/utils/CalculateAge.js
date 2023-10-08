@@ -1,5 +1,3 @@
-import React from "react";
-
 /**
  * Calculates the age based on the given birthday.
  * @param {string} birthday - The birthday in the format "YYYY-MM-DD".
