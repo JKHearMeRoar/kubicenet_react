@@ -1,6 +1,10 @@
 import React from "react";
 
-// Function calculateAge return age in years based on input in 1991-08-13 format
+/**
+ * Calculates the age based on the given birthday.
+ * @param {string} birthday - The birthday in the format "YYYY-MM-DD".
+ * @returns {number} The age in years.
+ */
 const CalculateAge = birthday => {
 	const birthDate = new Date(birthday)
 	const today = new Date()

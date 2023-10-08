@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useEffect } from 'react';
 import Container from "react-bootstrap/Container";
 import CalculateAge from "../utils/CalculateAge";
+import AnimateNumber from "../utils/AnimateNumber";
 
 const Hello = () => {
 	const age = CalculateAge('1991-08-13');
+	
+	useEffect(() => {
+		AnimateNumber('age', 3000);
+	}, []);
+	
 
 	return (
 		<>
