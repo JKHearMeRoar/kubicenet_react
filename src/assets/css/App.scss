@@ -36,3 +36,170 @@ body {
 		}
 	}
 }
+
+header {
+	svg {
+		width: 2rem;
+		height: 2rem;
+	}
+}
+
+.badge {
+	border: 1px solid $ghost-white;
+	flex: 1 1 10rem;
+	transition: all 0.5s;
+
+	img {
+		height: 2rem;
+		width: 2rem;
+		margin-right: 0.5rem;
+	}
+
+	&:hover {
+		background-color: $primary;
+	}
+}
+
+.hello {
+	.btn {
+		svg {
+			width: 2rem;
+			height: 2rem;
+			color: $ghost-white;
+			transition: all 0.5s;
+		}
+
+		&:hover {
+
+			svg {
+				color: $celestial;
+			}
+		}
+	}
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+	font-weight: 300;
+}
+
+h1,
+h2 {
+	margin-bottom: 10px;
+}
+
+h1 {
+	font-size: 3rem;
+	font-weight: 700;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	margin: 22px 0;
+	background-image: linear-gradient(to right, transparent, $lighter-gray2, transparent);
+}
+
+a {
+	color: $blue;
+
+	&:hover {
+		color: $blue;
+		text-decoration: underline;
+	}
+}
+
+.halo {
+	transition: all 1s;
+	border: 0.25em solid $primary;
+	padding: 0.15em;
+	box-shadow:
+		0 0 2em 1em $primary,
+		0 0 3em 2em $violet,
+		0 0 4em 3em $green;
+}
+
+a:hover {
+	.halo {
+		box-shadow:
+			0 0 3em 1.5em $ghost-white,
+			0 0 3em 1.5em $violet,
+			0 0 4em 2em $green;
+	}
+}
+
+.jobs,
+.education {
+
+	a {
+		outline: 0;
+		display: block;
+		font-size: 30%;
+
+		&:hover {
+			img {
+				box-shadow:
+					0 0 3em 1.5em $ghost-white,
+					0 0 3em 1.5em $violet,
+					0 0 4em 2em $green;
+			}
+		}
+	}
+
+	img {
+		width: 5rem;
+		height: auto;
+		display: block;
+		background: $ghost-white;
+		padding: 5px;
+		position: relative;
+		z-index: 10;
+		transition: all 1s;
+
+		@include media-breakpoint-down(sm) {
+			margin: 0 auto 15px auto;
+		}
+	}
+}
+
+.positions>.col,
+.education>.col {
+	position: relative;
+
+	&:after {
+		content: "";
+		position: absolute;
+		width: 2px;
+		height: 100%;
+		background-color: $ghost-white;
+		top: 0;
+		left: 51px;
+		margin: 2.5rem 0 0 0;
+	}
+
+	&:last-child:after {
+		display: none;
+	}
+
+}
+
+ul {
+	li {
+		display: block;
+		padding-left: 30px;
+		background: url('../images/check.png') no-repeat 0% 50%;
+
+		@include media-breakpoint-down(sm) {
+			padding: 0;
+			background: transparent;
+		}
+	}
+}

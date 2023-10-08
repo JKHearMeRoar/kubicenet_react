@@ -1,32 +1,21 @@
 import React from "react";
-import styled from "styled-components";
-import { NavLink as Link } from "react-router-dom";
-import enFlag from "../assets/images/english.svg";
-import czFlag from "../assets/images/czech.svg";
+import { NavLink } from "react-router-dom";
+import Icon from "../utils/Icon";
 import Container from "react-bootstrap/Container";
-
-const Nav = styled.header``;
-
-const NavLink = styled(Link)`
-img {
-	width: 2rem;
-	height: auto;
-}
-`;
 
 const Navbar = () => {
 	return (
 		<>
-			<Nav>
+			<header>
 				<Container>
 					<NavLink to="/en" className="en">
-						<img src={enFlag} alt="English flag"/>
+						<Icon name="english" title="English flag" />
 					</NavLink>
 					<NavLink to="/cz" className="cz">
-						<img src={czFlag} alt="Czech flag"/>
+						<Icon name="czech" title="Czech flag" />
 					</NavLink>
 				</Container>
-			</Nav>
+			</header>
 		</>
 	);
 };
