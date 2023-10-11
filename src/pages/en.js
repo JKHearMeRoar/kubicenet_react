@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import Hello from '../components/Hello';
+import ToggleLanguage from '../utils/ToggleLanguage';
 
 const En = () => {
 
@@ -9,10 +10,7 @@ const En = () => {
 	const [language, setLanguage] = useState('en');
 
 	useEffect(() => {
-		document.documentElement.lang = language;
-		document.body.classList.toggle('cz', language === 'cz');
-		document.body.classList.toggle('en', language === 'en');
-		i18n.changeLanguage(language);
+		ToggleLanguage(language, i18n);
 	}, [language]);
 
 	return (

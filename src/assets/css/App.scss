@@ -23,25 +23,6 @@ $primary: $celestial;
 
 body {
 	font-family: 'Exo 2', sans-serif;
-
-	&.cz {
-		header .cz {
-			display: none;
-		}
-	}
-
-	&.en {
-		header .en {
-			display: none;
-		}
-	}
-}
-
-header {
-	svg {
-		width: 2rem;
-		height: 2rem;
-	}
 }
 
 .badge {
@@ -59,25 +40,6 @@ header {
 		background-color: $primary;
 	}
 }
-
-.hello {
-	.btn {
-		svg {
-			width: 2rem;
-			height: 2rem;
-			color: $ghost-white;
-			transition: all 0.5s;
-		}
-
-		&:hover {
-
-			svg {
-				color: $celestial;
-			}
-		}
-	}
-}
-
 
 h1,
 h2,
