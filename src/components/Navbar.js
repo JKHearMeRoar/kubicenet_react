@@ -27,10 +27,10 @@ const Navbar = () => {
 			<StyledHeader>
 				<Container className='text-end'>
 					<NavLink to="/en" className="en">
-						<Icon name="english" title={t('english-flag')} size='2em' />
+						<Icon name="english" title={t('NavBar.english-flag')} size='2em' />
 					</NavLink>
 					<NavLink to="/cz" className="cz">
-						<Icon name="czech" title={t('czech-flag')} size='2em' />
+						<Icon name="czech" title={t('NavBar.czech-flag')} size='2em' />
 					</NavLink>
 				</Container>
 			</StyledHeader>

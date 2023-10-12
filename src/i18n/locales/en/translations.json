@@ -1,11 +1,23 @@
 {
-	"english-flag": "English",
-	"czech-flag": "Čeština",
-	"jan-kubice": "Jan Kubice",
-	"frontend-developer": "Frontend developer",
-	"my-name-is": "My name is Jan, I am <0>{{age}}</0> years old and I am a Frontend developer from Prague.",
-	"email-me": "Email me",
-	"linkedin-profile": "LinkedIn profile",
-	"profile-photo": "Jan Profile photo",
-	"footer-copy": "Created by Jan Kubice"
+	"Navbar": {
+		"english-flag": "English",
+		"czech-flag": "Čeština"
+	},
+	"Hello": {
+		"jan-kubice": "Jan Kubice",
+		"frontend-developer": "Frontend developer",
+		"my-name-is": "My name is Jan, I am <0>{{age}}</0> years old and I am a Frontend developer from Prague.",
+		"email-me": "Email me",
+		"linkedin-profile": "LinkedIn profile",
+		"profile-photo": "Jan Profile photo"
+	},
+	"TechStack": {
+		"header": "Tech stack"
+	},
+	"Jobs": {
+		"header": "Jobs"
+	},
+	"Footer": {
+		"copy": "Created by Jan Kubice"
+	}
 }

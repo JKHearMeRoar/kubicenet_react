@@ -10,7 +10,7 @@ const Footer = () => {
 		<>
 			<footer>
 				<Container>
-					{t('footer-copy')} &copy; {year}
+					{t('Footer.copy')} &copy; {year}
 				</Container>
 			</footer>
 		</>

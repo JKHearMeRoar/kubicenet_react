@@ -23,6 +23,25 @@ const StyledIcon = styled(Icon)`
 	}
 `;
 
+const ProfileLink = styled.a`
+	&:hover .halo {
+		box-shadow:
+			0 0 3em 1.5em ${({theme}) => theme.colors.white},
+			0 0 3em 1.5em ${({theme}) => theme.colors.violet},
+			0 0 4em 2em ${({theme}) => theme.colors.green};
+	}
+`;
+
+const ProfileImage = styled.img`
+	transition: all 1s;
+	border: 0.25em solid ${({theme}) => theme.colors.primary};
+	padding: 0.15em;
+	box-shadow:
+		0 0 2em 1em ${({theme}) => theme.colors.primary},
+		0 0 3em 2em ${({theme}) => theme.colors.violet},
+		0 0 4em 3em ${({theme}) => theme.colors.green};
+`;
+
 const Hello = () => {
 	const { t } = useTranslation();
 	const age = CalculateAge('1991-08-13');
@@ -35,28 +54,29 @@ const Hello = () => {
 		<>
 			<Container className="hello">
 				<Row className="align-items-center py-5">
-					<Col>
-						<h1>{t('jan-kubice')}</h1>
-						<Heading2>{t('frontend-developer')}</Heading2>
+					<Col id="my-gallery" className="text-sm-center" md={{span: 4, order: 'last'}}>
+						<ProfileLink href={Jan_1024} data-pswp-width="1024" data-pswp-height="1023" target="_blank" rel="noreferrer">
+							<ProfileImage src={Jan_600} alt={t('Hello.profile-photo')} width="300" height="300" className="halo rounded-circle"/>
+						</ProfileLink>
+					</Col>
+					<Col md="8" className="pe-md-5">
+						<h1>{t('Hello.jan-kubice')}</h1>
+						<Heading2>{t('Hello.frontend-developer')}</Heading2>
 						<p>
-							<Trans i18nKey='my-name-is'>
+							<Trans i18nKey='Hello.my-name-is'>
 								<span id="age">{{age}}</span>
 							</Trans>
 						</p>
 						<div className="d-flex gap-2">
 							<a href="mailto:jan@kubice.net" className="btn p-0">
-								<StyledIcon name="email" title={t('email-me')} size='2em'/>
+								<StyledIcon name="email" title={t('Hello.email-me')} size='2em'/>
 							</a>
 							<a href="https://www.linkedin.com/in/jan-kubice-09479370/" className="btn p-0">
-								<StyledIcon name="linkedin" title={t('linkedin-profile')} size='2em'/>
+								<StyledIcon name="linkedin" title={t('Hello.linkedin-profile')} size='2em'/>
 							</a>
 						</div>
 					</Col>
-					<Col id="my-gallery">
-						<a href={Jan_1024} data-pswp-width="1024" data-pswp-height="1023" target="_blank" rel="noreferrer">
-							<img src={Jan_600} alt={t('profile-photo')} width="300" height="300" className="halo rounded-circle"/>
-						</a>
-					</Col>
+					
 				</Row>
 			</Container>
 		</>

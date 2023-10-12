@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import Hello from '../components/Hello';
+import Layout from '../pages/Layout';
 import ToggleLanguage from '../utils/ToggleLanguage';
 
 const En = () => {
@@ -15,7 +15,7 @@ const En = () => {
 
 	return (
 		<>
-			<Hello />
+			<Layout />
 		</>
 	);
 };
