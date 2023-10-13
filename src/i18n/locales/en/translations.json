@@ -12,7 +12,27 @@
 		"profile-photo": "Jan Profile photo"
 	},
 	"TechStack": {
-		"header": "Tech stack"
+		"header": "Tech stack",
+		"html": "HTML",
+		"html-icon": "HTML icon",
+		"css": "CSS",
+		"css-icon": "CSS icon",
+		"javascript": "JavaScript",
+		"javascript-icon": "JavaScript icon",
+		"sass": "SASS",
+		"sass-icon": "SASS icon",
+		"git": "GIT",
+		"git-icon": "GIT icon",
+		"nodejs": "NodeJS",
+		"nodejs-icon": "NodeJS icon",
+		"bootstrap": "Bootstrap",
+		"bootstrap-icon": "Bootstrap icon",
+		"jquery": "jQuery",
+		"jquery-icon": "jQuery icon",
+		"php": "PHP",
+		"php-icon": "PHP icon",
+		"react": "React",
+		"react-icon": "React icon"
 	},
 	"Jobs": {
 		"header": "Jobs"

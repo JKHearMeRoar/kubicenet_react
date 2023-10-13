@@ -18,27 +18,10 @@ $body-color: $ghost-white;
 $body-bg: $gunmetal;
 $primary: $celestial;
 
-/* The following line can be included in a src/App.scss */
 @import '~bootstrap/scss/bootstrap';
 
 body {
 	font-family: 'Exo 2', sans-serif;
-}
-
-.badge {
-	border: 1px solid $ghost-white;
-	flex: 1 1 10rem;
-	transition: all 0.5s;
-
-	img {
-		height: 2rem;
-		width: 2rem;
-		margin-right: 0.5rem;
-	}
-
-	&:hover {
-		background-color: $primary;
-	}
 }
 
 h1,
@@ -78,27 +61,6 @@ a {
 		text-decoration: underline;
 	}
 }
-
-/*
-.halo {
-	transition: all 1s;
-	border: 0.25em solid $primary;
-	padding: 0.15em;
-	box-shadow:
-		0 0 2em 1em $primary,
-		0 0 3em 2em $violet,
-		0 0 4em 3em $green;
-}
-
-a:hover {
-	.halo {
-		box-shadow:
-			0 0 3em 1.5em $ghost-white,
-			0 0 3em 1.5em $violet,
-			0 0 4em 2em $green;
-	}
-}
-*/
 
 .jobs,
 .education {

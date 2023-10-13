@@ -12,7 +12,27 @@
 		"profile-photo": "Jan profilová fotka"
 	},
 	"TechStack": {
-		"header": "Tech stack"
+		"header": "Tech stack",
+		"html": "HTML",
+		"html-icon": "HTML ikona",
+		"css": "CSS",
+		"css-icon": "CSS ikona",
+		"javascript": "JavaScript",
+		"javascript-icon": "JavaScript ikona",
+		"sass": "SASS",
+		"sass-icon": "SASS ikona",
+		"git": "GIT",
+		"git-icon": "GIT ikona",
+		"nodejs": "NodeJS",
+		"nodejs-icon": "NodeJS ikona",
+		"bootstrap": "Bootstrap",
+		"bootstrap-icon": "Bootstrap ikona",
+		"jquery": "jQuery",
+		"jquery-icon": "jQuery ikona",
+		"php": "PHP",
+		"php-icon": "PHP ikona",
+		"react": "React",
+		"react-icon": "React ikona"
 	},
 	"Jobs": {
 		"header": "Pracovní zkušenosti"
