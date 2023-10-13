@@ -18,6 +18,9 @@
 		<symbol id="icon-czech" viewBox="0 0 512 512">
 			<path fill="#0052b4" d="M0 85.337h512v341.326H0z"></path><path fill="#d80027" d="M512 256v170.663H0L215.185 256z"></path><path fill="#f0f0f0" d="M512 85.337V256H215.185L0 85.337z"></path>
 		</symbol>
+		<symbol id="icon-spanish" viewBox="0 0 47.5 47.5">
+			<defs><clipPath id="a"><path d="M0 38h38V0H0v38Z"></path></clipPath></defs><g clip-path="url(#a)" transform="matrix(1.25 0 0 -1.25 0 47.5)"><path fill="#dd2e44" d="M37 10a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v18a4 4 0 0 0 4 4h28a4 4 0 0 0 4-4V10Z"></path><path fill="#ffcc4d" d="M37 13H1v12h36V13Z"></path><path fill="#ea596e" d="M10 20v-3a3 3 0 1 1 6 0v3h-6Z"></path><path fill="#f4a2b2" d="M13 18h3v3h-3v-3z"></path><path fill="#dd2e44" d="M13 18h-3v3h3v-3z"></path><path fill="#ea596e" d="M16 22.5c0-.829-1.343-1.5-3-1.5s-3 .671-3 1.5 1.343 1.5 3 1.5 3-.671 3-1.5"></path><path fill="#ffac33" d="M16 23.25c0 .414-1.343.75-3 .75s-3-.336-3-.75 1.343-.75 3-.75 3 .336 3 .75"></path><path fill="#99aab5" d="M8 14h1v7H8v-7zm10 0h-1v7h1v-7z"></path><path fill="#66757f" d="M10 14H7v1h3v-1zm9 0h-3v1h3v-1zM9 21H8v1h1v-1zm9 0h-1v1h1v-1z"></path></g>
+		</symbol>
 		<symbol id="icon-html" viewBox="0 0 128 128">
 			<path fill="#E44D26" d="M19.037 113.876l-10.005-112.215h109.936l-10.016 112.198-45.019 12.48z"></path><path fill="#F16529" d="M64 116.8l36.378-10.086 8.559-95.878h-44.937z"></path><path fill="#EBEBEB" d="M64 52.455h-18.212l-1.258-14.094h19.47v-13.762h-34.511l.33 3.692 3.382 37.927h30.799zM64 88.198l-.061.017-15.327-4.14-.979-10.975h-13.817l1.928 21.609 28.193 7.826.063-.017z"></path><path fill="#fff" d="M63.952 52.455v13.763h16.947l-1.597 17.849-15.35 4.143v14.319l28.215-7.82.207-2.325 3.234-36.233.335-3.696h-3.708zM63.952 24.599v13.762h33.244l.276-3.092.628-6.978.329-3.692z"></path>
 		</symbol>

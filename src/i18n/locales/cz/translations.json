@@ -34,6 +34,18 @@
 		"react": "React",
 		"react-icon": "React ikona"
 	},
+	"Languages": {
+		"header": "Jazyky",
+		"czech": "Čeština",
+		"czech-icon": "Česká vlajka",
+		"english": "Angličtina",
+		"english-icon": "Anglická vlajka",
+		"spanish": "Španělština",
+		"spanish-icon": "Španělská vlajka"
+	},
+	"Education": {
+		"header": "Vzdělání"
+	},
 	"Jobs": {
 		"header": "Pracovní zkušenosti"
 	},

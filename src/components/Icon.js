@@ -3,7 +3,7 @@ import Icons from "../assets/images/icons.svg";
 import PropTypes from 'prop-types';
 
 const Icon = ({ name, color, size, title, className }) => {
-	const finalClass = 'icon ' + 'icon-' + name + ' ' + className;
+	const finalClass = `icon icon-${name} ${className}`;
 	const link = Icons + '#icon-' + name;
 
 	return (

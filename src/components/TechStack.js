@@ -11,7 +11,7 @@ const TechStack = () => {
 
 	return (
 		<>
-			<Heading3>{t('TechStack.header')}</Heading3>
+			<Heading3 className="mb-4">{t('TechStack.header')}</Heading3>
 			<div className="d-flex flex-wrap gap-2">
 				<Badge name="html" title={t('TechStack.html')} alt={t('TechStack.html-icon')} size="2rem" />
 				<Badge name="css" title={t('TechStack.css')} alt={t('TechStack.css-icon')} size="2rem" />

@@ -34,6 +34,18 @@
 		"react": "React",
 		"react-icon": "React icon"
 	},
+	"Languages": {
+		"header": "Languages",
+		"czech": "Czech",
+		"czech-flag": "Czech flag",
+		"english": "English",
+		"english-flag": "English flag",
+		"spanish": "Spanish",
+		"spanish-flag": "Spanish flag"
+	},
+	"Education": {
+		"header": "Education"
+	},
 	"Jobs": {
 		"header": "Jobs"
 	},

@@ -9,7 +9,7 @@ const Footer = () => {
 	return (
 		<>
 			<footer>
-				<Container>
+				<Container className="py-3">
 					{t('Footer.copy')} &copy; {year}
 				</Container>
 			</footer>

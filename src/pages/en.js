@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import Layout from '../pages/Layout';
 import ToggleLanguage from '../utils/ToggleLanguage';
@@ -7,11 +7,11 @@ const En = () => {
 
 	const { i18n } = useTranslation();
 
-	const [language, setLanguage] = useState('en');
+	const language = 'en';
 
 	useEffect(() => {
 		ToggleLanguage(language, i18n);
-	}, [language]);
+	}, [language, i18n]);
 
 	return (
 		<>
