@@ -44,7 +44,12 @@
 		"spanish-icon": "Španělská vlajka"
 	},
 	"Education": {
-		"header": "Vzdělání"
+		"header": "Vzdělání",
+		"vse-logo": "Logo VŠE",
+		"vse": "Vysoká škola ekonomická v Praze",
+		"vse-faculty": "Fakulta mezinárodních vztahů - obor podnikání a právo",
+		"gvp-logo": "Logo GVP",
+		"gvp": "Gymnázium Na Vítězné pláni"
 	},
 	"Jobs": {
 		"header": "Pracovní zkušenosti"

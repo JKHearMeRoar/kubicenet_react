@@ -37,9 +37,9 @@ const ProfileImage = styled.img`
 	border: 0.25em solid ${({theme}) => theme.colors.primary};
 	padding: 0.15em;
 	box-shadow:
-		0 0 2em 1em ${({theme}) => theme.colors.primary},
-		0 0 3em 2em ${({theme}) => theme.colors.violet},
-		0 0 4em 3em ${({theme}) => theme.colors.green};
+		0 0 2em 0.5em ${({theme}) => theme.colors.primary},
+		0 0 3em 1em ${({theme}) => theme.colors.violet},
+		0 0 4em 1.5em ${({theme}) => theme.colors.green};
 `;
 
 const Hello = () => {

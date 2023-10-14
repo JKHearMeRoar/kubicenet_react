@@ -41,6 +41,10 @@ h1 {
 	font-weight: 700;
 }
 
+h5 {
+	font-size: 1rem;
+}
+
 ul {
 	margin: 0;
 	padding: 0;
@@ -59,40 +63,6 @@ a {
 	&:hover {
 		color: $blue;
 		text-decoration: underline;
-	}
-}
-
-.jobs,
-.education {
-
-	a {
-		outline: 0;
-		display: block;
-		font-size: 30%;
-
-		&:hover {
-			img {
-				box-shadow:
-					0 0 3em 1.5em $ghost-white,
-					0 0 3em 1.5em $violet,
-					0 0 4em 2em $green;
-			}
-		}
-	}
-
-	img {
-		width: 5rem;
-		height: auto;
-		display: block;
-		background: $ghost-white;
-		padding: 5px;
-		position: relative;
-		z-index: 10;
-		transition: all 1s;
-
-		@include media-breakpoint-down(sm) {
-			margin: 0 auto 15px auto;
-		}
 	}
 }
 

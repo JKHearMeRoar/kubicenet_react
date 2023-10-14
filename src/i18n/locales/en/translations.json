@@ -44,7 +44,12 @@
 		"spanish-flag": "Spanish flag"
 	},
 	"Education": {
-		"header": "Education"
+		"header": "Education",
+		"vse-logo": "Logo UoEP",
+		"vse": "University of Economics, Prague",
+		"vse-faculty": "Faculty of International Relations - Business & Law",
+		"gvp-logo": "Logo GVP",
+		"gvp": "Grammar school Na Vítězné pláni"
 	},
 	"Jobs": {
 		"header": "Jobs"
