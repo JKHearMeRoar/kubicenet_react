@@ -52,7 +52,60 @@
 		"gvp": "Gymnázium Na Vítězné pláni"
 	},
 	"Jobs": {
-		"header": "Pracovní zkušenosti"
+		"header": "Pracovní zkušenosti",
+		"ebay": {
+			"logo": "Logo eBay",
+			"position": "Frontend Developer",
+			"ebay": "eBay",
+			"date": "2019 - současnost",
+			"responsibilities": {
+				"automation": "Vytváření automatických personalizovaných marketingových kampaní",
+				"transactional": "Správa portfolia transakčních emailů",
+				"testing": "Vytváření automatizovaných testů",
+				"tools": "Vývoj interních marketingových nástrojů",
+				"processes": "Nastavování a optimalizace vývojových procesů",
+				"training": "Vzdělávání juniorních kolegů"
+			}
+		},
+		"conrad": {
+			"logo": "Logo Conrad",
+			"position": "Email Marketing Specialist",
+			"conrad": "Conrad Electronic",
+			"date": "2018 - 2019",
+			"responsibilities": {
+				"coding": "Kódování responzivních HTML emailových šablon a kampaní",
+				"automation": "Vytváření automatických personalizovaných kampaní",
+				"segmentation": "Segmentace zákazníků",
+				"analysis": "Datová analýza & reportování",
+				"quality": "Kontrola kvality",
+				"copy": "Copywriting",
+				"project": "Řízení projektů"
+			}
+		}, 
+		"smartemailing": {
+			"logo": "Logo SmartEmailing",
+			"position": "Frontend Developer",
+			"smartemailing": "SmartEmailing",
+			"date": "2013 - 2018",
+			"responsibilities": {
+				"coding": "Kódování responzivních HTML emailových šablon a kampaní",
+				"wordpress": "Vytváření WordPress mikrosite a vývoj šablon a pluginů pro WP",
+				"frontend": "Frontend web vývoj & údržba",
+				"techsupport": "Technická podora pro klíčové klienty",
+				"training": "Vzdělávání juniorních kolegů v HTML a emailových Best practice"
+			}
+		},
+		"freelancer": {
+			"logo": "Logo Freelancer",
+			"position": "Frontend Developer",
+			"freelancer": "Freelancer",
+			"date": "2012 - 2018",
+			"responsibilities": {
+				"coding": "Kódování responzivních HTML emailových šablon a kampaní",
+				"wordpress": "Vytváření WordPress mikrosite a vývoj šablon a pluginů pro WP",
+				"frontend": "Frontend web vývoj & údržba"
+			}
+		}
 	},
 	"Footer": {
 		"copy": "Vyrobil Jan Kubiče"

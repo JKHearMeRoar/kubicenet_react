@@ -65,37 +65,3 @@ a {
 		text-decoration: underline;
 	}
 }
-
-.positions>.col,
-.education>.col {
-	position: relative;
-
-	&:after {
-		content: "";
-		position: absolute;
-		width: 2px;
-		height: 100%;
-		background-color: $ghost-white;
-		top: 0;
-		left: 51px;
-		margin: 2.5rem 0 0 0;
-	}
-
-	&:last-child:after {
-		display: none;
-	}
-
-}
-
-ul {
-	li {
-		display: block;
-		padding-left: 30px;
-		background: url('../images/check.png') no-repeat 0% 50%;
-
-		@include media-breakpoint-down(sm) {
-			padding: 0;
-			background: transparent;
-		}
-	}
-}

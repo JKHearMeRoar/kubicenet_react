@@ -13,7 +13,7 @@ const Layout = () => {
 		<>
 			<Hello />
 			<Container>
-				<Row>
+				<Row className="g-5">
 					<Col>
 						<Row>
 							<Col>
