@@ -29,7 +29,7 @@ export default function SimpleGallery(props) {
 				target="_blank"
 				rel="noreferrer"
 			>
-				<img src={image.thumbnailURL} width="300" height="300" alt={props.alt} />
+				<img src={image.thumbnailURL} alt={props.alt} className='img-fluid' />
 			</a>
 		))}
 		</div>

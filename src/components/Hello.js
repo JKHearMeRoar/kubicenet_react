@@ -26,6 +26,7 @@ const StyledIcon = styled(Icon)`
 
 const ProfileLink = styled(Photoswipe)`
 	img {
+		
 		transition: all 1s;
 		border-radius: 50%;
 		border: 0.25em solid ${({theme}) => theme.colors.primary};
@@ -62,8 +63,8 @@ const Hello = () => {
 		<>
 			<Container className="hello">
 				<Row className="align-items-center py-5">
-					<Col className="text-sm-center" md={{span: 4, order: 'last'}}>
-						<ProfileLink galleryID="my-gallery" className="pswp-gallery text-sm-center" alt={t('Hello.profile-photo')} md={{span: 4, order: 'last'}} images={[
+					<Col md={{span: 4, order: 'last'}}>
+						<ProfileLink galleryID="my-gallery" className="pswp-gallery text-center text-md-end pb-5 pb-md-0" alt={t('Hello.profile-photo')} md={{span: 4, order: 'last'}} images={[
 							{
 							largeURL: Jan_1024,
 							thumbnailURL: Jan_600,
