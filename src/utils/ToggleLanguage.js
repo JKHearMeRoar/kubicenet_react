@@ -1,5 +1,3 @@
-import React from 'react';
-
 const toggleLanguage = (language, i18n) => {
 
 	document.documentElement.lang = language;
