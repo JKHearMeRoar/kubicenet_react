@@ -16,7 +16,7 @@ export default function SimpleGallery(props) {
 			lightbox.destroy();
 			lightbox = null;
 		};
-	}, []);
+	}, [props.className, props.galleryID]);
 
 	return (
 		<div className={props.className} id={props.galleryID}>
