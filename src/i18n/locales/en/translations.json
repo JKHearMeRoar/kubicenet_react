@@ -6,9 +6,11 @@
 	"Hello": {
 		"jan-kubice": "Jan Kubice",
 		"frontend-developer": "Frontend developer",
-		"my-name-is": "My name is Jan, I am <0>{{age}}</0> years old and I am a Frontend developer from Prague.",
+		"my-name-is": "My name is Jan, I am <0>{{age}}</0> years old and I am a standard nerd from Prague.",
+		"fix-your-problems": "I will code your problems away.",
 		"email-me": "Email me",
 		"linkedin-profile": "LinkedIn profile",
+		"download-cv": "Download CV",
 		"profile-photo": "Jan Profile photo"
 	},
 	"TechStack": {

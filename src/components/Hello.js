@@ -10,6 +10,7 @@ import Jan_600 from "../assets/images/jan_600.jpg";
 import Jan_1024 from "../assets/images/jan_1024.jpg";
 import { Trans, useTranslation } from 'react-i18next';
 import styled from 'styled-components';
+import kubiceCV from "../assets/docs/kubice_CV.pdf";
 
 const Heading2 = styled.h2`
 	padding-left: 0.5rem !important;
@@ -78,7 +79,8 @@ const Hello = () => {
 						<p>
 							<Trans i18nKey='Hello.my-name-is'>
 								<span id="age">{{age}}</span>
-							</Trans>
+							</Trans><br/>
+							{t('Hello.fix-your-problems')}
 						</p>
 						<div className="d-flex gap-2">
 							<a href="mailto:jan@kubice.net" className="btn p-0">
@@ -87,13 +89,16 @@ const Hello = () => {
 							<a href="https://www.linkedin.com/in/jan-kubice-09479370/" className="btn p-0">
 								<StyledIcon name="linkedin" title={t('Hello.linkedin-profile')} size='2em'/>
 							</a>
+							<a href={kubiceCV} download="kubice_CV" target="_blank" rel="noreferrer" className="btn p-0">
+								<StyledIcon name="cv" title={t('Hello.download-cv')} size='2em'/>
+							</a>
 						</div>
 					</Col>
-					
 				</Row>
 			</Container>
 		</>
 	);
 };
+
 
 export default Hello;
